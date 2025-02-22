@@ -1,3 +1,7 @@
 Title Name,Age,Sex,Civil Status,Item No.,Item Name,Manufacturer,Number of Pieces,Price per Unit,Total,Discounted Total
 Mr. Mark Neil,62,M,S,1,rigt,wt,2,34.0,192.00,153.60
 Mr. Mark Neil,62,M,S,2,weg,wr,1,124.0,192.00,153.60
+Mr. Mark Neil Tevev,21,M,S,2,,,124,35.0,4536.00,4536.00
+Mr. Mark Neil Tevev,21,M,S,1,weg,weg,14,14.0,4536.00,4536.00
+Mr. ,21,M,S,1,orange,apple,4,14.0,56.00,56.00
+Mr. Mark Neil,21,M,S,1,mar,mas,12,123.0,1476.00,1476.00

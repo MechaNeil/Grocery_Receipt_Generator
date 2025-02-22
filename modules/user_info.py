@@ -5,7 +5,12 @@ def get_user_info():
     # This line defines a function named `get_user_info` that takes no arguments.
 
     # Get User's Name
-    name = input("Enter your name (max 10 characters): ").title()
+    while True:
+        name = input("Enter your name (max 10 characters): ").title()
+        if len(name) > 0:
+            break
+        else:
+            print("Name cannot be empty. Please enter a valid name.")
     # This line prompts the user to enter their name, with a maximum of 10 characters.
     # The `[:10]` slice is used to truncate the input to 10 characters if it is longer.
 

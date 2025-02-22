@@ -27,10 +27,21 @@ def get_items_info():
         # This line prompts the user to enter the item number for the current item.
         # The `f-string` is used to insert the current item number (`i+1`) into the prompt.
 
-        item_name = input("Enter item name: ")
+        while True:
+            item_name = input("Enter item name: ")
+            if len(item_name) > 0:
+                break
+            else:
+                print("Item name cannot be empty. Please enter a valid item name.")
         # This line prompts the user to enter the name of the current item.
 
-        manufacturer = input("Enter manufacturer: ")
+        while True:
+        
+            manufacturer = input("Enter manufacturer: ")
+            if len(manufacturer) > 0:
+                break
+            else:
+                print("Manufacturer cannot be empty. Please enter a valid manufacturer name.")
         # This line prompts the user to enter the manufacturer of the current item.
 
         while True:
