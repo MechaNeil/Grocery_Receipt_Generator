@@ -1,3 +1,5 @@
+![Header Image](https://user-images.githubusercontent.com/74038190/221352995-5ac18bdf-1a19-4f99-bbb6-77559b220470.gif)
+
 # Grocery Receipt Generator
 
 This project is a simple console-based application that allows users to input their personal information and details about the items they are purchasing. The application then generates a receipt and stores it in a file.
